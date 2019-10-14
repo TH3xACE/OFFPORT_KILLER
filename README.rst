@@ -57,8 +57,10 @@ Steps
 
 Note: Create an entry for each port, several IP can be input in the file.
 
+
+inputfile.txt
+-------------------------
  .. code-block:: console
-**inputfile.txt**
 192.168.1.12:1830
 192.168.1.12:7738
 192.168.1.14:22
