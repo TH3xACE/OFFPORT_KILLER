@@ -47,12 +47,23 @@ Arguments
 * **-r : report name (save the output)**
 * **-h : help**
 
-| **inputfile.txt**
-| 192.168.1.12:22 
-| 192.168.1.12:3389 
-| 192.168.1.13:22 
-| 192.168.1.13:7738    
-| 192.168.1.13:3465    
+Steps
+--------------------------
+  
++ Step 1: Peform a manual port scanning (using nc, tcpdump or whatever)
++ Step 2: Create a file with format IP:PORT (where IP is the target IP address and PORT is a port identified).    
++ Step 3: Run the tool with the file created using the argument -i                                           
+
+
+Note: Create an entry for each port, several IP can be input in the file.
+
+**inputfile.txt**
+192.168.1.12:1830 \
+192.168.1.12:7738 
+192.168.1.14:22
+192.168.1.14:7738
+192.168.1.15:3465
+
 
 =============
 Output
