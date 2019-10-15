@@ -81,7 +81,7 @@ Read output
 To read output while keeping the aspect (color), especially when cat is not adequate is output is long.
 
 .. code-block:: console
-less -R  report.txt
+* less -R  report.txt
 
 =============
 Disclaimer
