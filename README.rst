@@ -76,12 +76,11 @@ Output
  	:alt: Project
 
 
-To read output while keeping the aspect (color), especially when cat is not adequate is output is long.
-
 Read output
 -------------------------
- .. code-block:: console
+To read output while keeping the aspect (color), especially when cat is not adequate is output is long.
 
+.. code-block:: console
 less -R  report.txt
 
 =============
