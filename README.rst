@@ -18,6 +18,8 @@
 
 #Manual Port Scanning #Enumerate Potential Service
 
+If you like the tool and for my personal motivation so as to develop other tools please a +1 star *
+
 .. contents:: 
     :local:
     :depth: 1
@@ -30,7 +32,7 @@ This tool aims at automating the identification of potential service running beh
 The tool is useful when nmap or any scanning tool is not available and in the situation during which you did 
 a manual port scanning and then want to identify the services running behind the identified ports.
 
-If you like the tool and for my personal motivation so as to develop other tools please a +1 star *
+
 
 The tool can be used by pentesters, system admins, CTF players, students, System Auditors and trolls :).
 
