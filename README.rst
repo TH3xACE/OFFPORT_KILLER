@@ -30,7 +30,7 @@ INTRO
 
 This tool aims at automating the identification of potential service running behind ports identified manually. 
 The tool is useful when nmap or any scanning tool is not available and in the situation during which you did 
-a manual port scanning and then want to identify the services running behind the identified ports.
+a manual port scanning and then want to identify the services running behind the identified ports and also if you have been able to identify services running locally via (netstats, running processes SNMP or else).
 
 
 
@@ -56,7 +56,7 @@ Arguments
 Steps
 --------------------------
   
-+ Step 1: Peform a manual port scanning (using nc, tcpdump or whatever)
++ Step 1: Peform a manual port scanning (using nc, tcpdump or whatever) or identify services running locally
 + Step 2: Create a file with format IP:PORT (where IP is the target IP address and PORT is a port identified).    
 + Step 3: Run the tool with the file created using the argument -i                                           
 
