@@ -30,7 +30,7 @@ INTRO
 
 This tool aims at automating the identification of potential service running behind ports identified manually. 
 The tool is useful when nmap or any scanning tool is not available and in the situation during which you did 
-a manual port scanning and then want to identify the services running behind the identified ports and also if you have been able to identify services running locally via (netstats, running processes SNMP or else).
+a manual port scanning and then want to identify the services running behind the identified ports and also if you have been able to identify services running locally via (netstat, running processes SNMP or else).
 
 
 
