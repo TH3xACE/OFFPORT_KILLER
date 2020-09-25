@@ -28,10 +28,16 @@ If you like the tool and for my personal motivation so as to develop other tools
 INTRO
 =============
 
-This tool aims at automating the identification of potential service running behind ports identified manually. 
-The tool is useful when nmap or any scanning tool is not available and in the situation during which you did 
-a manual port scanning and then want to identify the services running behind the identified ports and also if you have been able to identify services running locally via (netstat, running processes SNMP or else).
+This tool aims at automating the identification of potential service running behind ports identified manually or on services running locally only. 
 
+The tool is useful:
+
+1. when nmap or any scanning tool is not available and in the situation during which you did 
+a manual port scanning and then want to identify the services running behind the identified ports and 
+
+2.also if you have been able to identify services running locally via (netstat, running processes SNMP or else).
+
+Several databases are used such as the one from NMAP, IANA and linux machines.
 
 
 The tool can be used by pentesters, system admins, CTF players, students, System Auditors and trolls :).
